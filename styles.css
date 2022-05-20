@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 99px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #00af1c;
+  padding: 20px 30px;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  margin: 0 25px;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2,
+p,
+h3 {
+  margin: 20px 50px;
+}
+
+h2.home {
+  color: blue;
+  margin-top: 80px;
+}
+
+.img {
+  margin-top: 30px;
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 40px;
+}
+
+figure {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul li {
+
+  margin-top: 40px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.marron {
+  color: brown;
+}
+
+.rojo {
+  color: red;
+}
+
+.azul {
+  color: blue;
+}
+
+.verde {
+  color: #00af1c;
+}
+
+h3 {
+  color: #06D2C6;
+  font-size: 24px;
+  margin-top: 80px;
+}
+
+.parra3 {
+  height: 80px;
+}
+
+div input {
+  border: 1px solid;
+  Width: 90%;
+  Height: 88px;
+  margin-left: 50px;
+  padding-left: 40px;
+}
+
+.prim {
+  margin-bottom: 40px;
+}
+
+button {
+  display: flex;
+  border: 1px solid green;
+  line-height: 3.5;
+  padding-left: 75px;
+  font-size: 1rem;
+  color: green;
+  margin-top: 40px;
+  margin-left: 45px;
+  width: 200px;
+  height: 60px;
+}
+
+footer {
+  background-color: #00af1c;
+  width: 100vw;
+  height: 103px;
+  color: white;
+  font-size: 30px;
+  margin-top: 90px;
+  display: flex;
+}
+
+.todos {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.creado {
+  font-size: 20px;
+  margin-left: 700px;
+}
